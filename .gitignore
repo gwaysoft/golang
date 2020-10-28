@@ -1,4 +1,6 @@
-.idea/
+# custom
+.idea
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
