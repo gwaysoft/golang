@@ -115,8 +115,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -158,8 +157,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1603856436007" ID="ID_1070098273" MODIFIED="1603856445842" TEXT="pointer">
@@ -187,6 +185,14 @@
 <node CREATED="1603874642617" ID="ID_215677360" MODIFIED="1603874647467" TEXT="receiver">
 <node CREATED="1603874647468" ID="ID_736294522" MODIFIED="1603874650438" TEXT="value"/>
 <node CREATED="1603874651537" ID="ID_1958535311" MODIFIED="1603874659062" TEXT="pointer"/>
+</node>
+<node CREATED="1603942573654" ID="ID_1973676699" MODIFIED="1603942586672" TEXT="privilege">
+<node CREATED="1603942586673" ID="ID_253454430" MODIFIED="1603942591063" TEXT="upper">
+<node CREATED="1603942591985" ID="ID_1371514531" MODIFIED="1603942596118" TEXT="public"/>
+</node>
+<node CREATED="1603942597370" ID="ID_111046672" MODIFIED="1603942600146" TEXT="lower">
+<node CREATED="1603942600146" ID="ID_1761229085" MODIFIED="1603942601839" TEXT="private"/>
+</node>
 </node>
 </node>
 </node>
