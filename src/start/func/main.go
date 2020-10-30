@@ -87,37 +87,38 @@ func panicDeferRecover() {
 }
 
 func main() {
-	fmt.Println(sum())
-	fmt.Println(sum(3, 6, 3, 4))
-
-	fmt.Println(sum01("ee", 6, 3, 4))
-	fmt.Println(add(3, 3))
-
-	ff := sum
-	fmt.Printf("%T", ff)
-	fmt.Println(ff(3, 3, 7))
-
-	fmt.Println(add01(100, 33, add00))
-	fmt.Println("ee")
-
-	sayFunc := func() {
-		fmt.Println("anonymouse")
-	}
-
-	sayFunc()
-
-	func(a int, b string) {
-		fmt.Printf("%02d %s", a, b)
-	}(3, "eee")
-
-	cc := cloo("eeesssss")
-	cc()
-
-	pre := prefixString("prefixxx")
-	fmt.Println(pre("eeee"))
-	fmt.Println(pre("prefixxxeeee"))
 	panicDeferRecover()
-	aa, ss := aass(100)
-	fmt.Println(aa(50), ss(50))
+	//fmt.Println(sum())
+	//fmt.Println(sum(3, 6, 3, 4))
+	//
+	//fmt.Println(sum01("ee", 6, 3, 4))
+	//fmt.Println(add(3, 3))
+	//
+	//ff := sum
+	//fmt.Printf("%T", ff)
+	//fmt.Println(ff(3, 3, 7))
+	//
+	//fmt.Println(add01(100, 33, add00))
+	//fmt.Println("ee")
+	//
+	//sayFunc := func() {
+	//	fmt.Println("anonymouse")
+	//}
+	//
+	//sayFunc()
+	//
+	//func(a int, b string) {
+	//	fmt.Printf("%02d %s", a, b)
+	//}(3, "eee")
+	//
+	//cc := cloo("eeesssss")
+	//cc()
+	//
+	//pre := prefixString("prefixxx")
+	//fmt.Println(pre("eeee"))
+	//fmt.Println(pre("prefixxxeeee"))
+	//panicDeferRecover()
+	//aa, ss := aass(100)
+	//fmt.Println(aa(50), ss(50))
 
 }
