@@ -43,4 +43,8 @@ func main() {
 	println(say(ant{}, "ant{}"))
 	println(say(bee{}, "bee{}"))
 
+	var sss sayer
+	sss = new(ant)
+	fmt.Println(sss.say("eee"))
+
 }
