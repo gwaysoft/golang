@@ -10,7 +10,7 @@ https://www.bilibili.com/video/BV19k4y1k7U9
 ```text
 http://www.json.cn/
 ```
-###
+### shell
 ```shell script
 cd student
 go build
